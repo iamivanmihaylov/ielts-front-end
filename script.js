@@ -21,7 +21,7 @@ document.getElementById("get-feedback").addEventListener("click", async function
 
     scrollToBottomCustom(1000);
 
-    const response = await fetch("https://localhost:7084/essay/submit", {
+    const response = await fetch("https://ielts-prod-253167572112.us-central1.run.app/essay/submit", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
