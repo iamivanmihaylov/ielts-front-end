@@ -134,7 +134,7 @@ document.getElementById("get-feedback").addEventListener("click", async function
             <img src="static/dots-small.svg" alt="">
         </div>
 
-        <a class="btn-call-to-action" href="#">Give Feedback</a>
+        <a class="btn-call-to-action" href="https://docs.google.com/forms/d/e/1FAIpQLSc-jP3XL_PZRIhvGep3nlsJ9Oh-e5r_nsPWgkJ7904j_54R2w/viewform">Give Feedback</a>
     </section>`;
 
     // Inject the generated HTML into the element with the class "report"
